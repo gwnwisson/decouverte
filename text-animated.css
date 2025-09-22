@@ -7,7 +7,9 @@ body .love {
   color: hotpink;
   animation: pulse 2s infinite, transformationColor 2s infinite;
 }
-
+body .love:hover {
+  animation: rotation 0.5s linear, pulse 2s infinite, transformationColor 2s infinite;
+}
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -28,5 +30,13 @@ body .love {
   }
   100% {
     color: red;
+  }
+}
+@keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
   }
 }/*# sourceMappingURL=text-animated.css.map */
