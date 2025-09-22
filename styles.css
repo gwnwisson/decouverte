@@ -27,4 +27,5 @@
   animation-duration: 3s;
   animation-name: rotation;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }/*# sourceMappingURL=styles.css.map */
