@@ -16,4 +16,15 @@
   to {
     rotate: 360deg;
   }
+}
+.exercice2 .spinner {
+  width: 100px;
+  height: 100px;
+}
+.exercice2 .spinner img {
+  width: 100%;
+  height: 100%;
+  animation-duration: 3s;
+  animation-name: rotation;
+  animation-iteration-count: infinite;
 }/*# sourceMappingURL=styles.css.map */
