@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .exercice1 .boite {
   width: 50px;
   height: 50px;
@@ -28,4 +29,10 @@
   animation-name: rotation;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.exercice3 .linklove {
+  font-size: 40px;
+  font-family: "Pacifico", cursive;
+  color: hotpink;
 }/*# sourceMappingURL=styles.css.map */

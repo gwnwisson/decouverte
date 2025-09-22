@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .exercice1 {
     .boite{
         width: 50px;
@@ -33,5 +33,13 @@
             animation-iteration-count: infinite;
             animation-timing-function: linear;
         }
+    }
+}
+
+.exercice3{
+    .linklove{
+        font-size: 40px;
+        font-family: "Pacifico", cursive;
+        color: hotpink;
     }
 }
