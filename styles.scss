@@ -4,4 +4,16 @@
     border: 5px solid white;
     border-right: 5px solid blue;
     border-radius: 50%;
+    animation-duration: 2s;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
 }
