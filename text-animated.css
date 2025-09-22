@@ -5,9 +5,7 @@ body .love {
   font-size: 100px;
   font-family: "Pacifico", cursive;
   color: hotpink;
-  animation-name: pulse;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation: pulse 2s infinite, transformationColor 2s infinite;
 }
 
 @keyframes pulse {
@@ -19,5 +17,16 @@ body .love {
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes transformationColor {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
   }
 }/*# sourceMappingURL=text-animated.css.map */
